@@ -16,7 +16,7 @@ const ContextProvider = ({ children }) => {
     console.log(allPhotos);
 
     return (
-        <Context.Provider value={{allPhotos}}>
+        <Context.Provider value={{ allPhotos }}>
             {children}
         </Context.Provider>
     );
